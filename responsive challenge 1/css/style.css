@@ -1,0 +1,98 @@
+/*styling my larger desktop*/
+@media only screen and (max-width: 2000px) {
+  .header {
+    background-color: orange;
+  }
+  nav {
+    background-color: orange;
+  }
+  section{
+  background-color: orange;
+  }
+  article {
+    background-color: orange;
+  }
+  footer {
+    background-color: orange;
+  }
+
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-gap: 30px;
+}
+.header {
+  grid-column: 1/4;
+  border: 1px solid;
+  background-color: green;
+  text-align: center;
+  border-radius: 10px;
+}
+nav {
+  grid-column: 1/2;
+  background-color: green;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 10px;
+
+}
+section{
+grid-column: 2/4;
+background-color: green;
+border: 1px solid;
+text-align: center;
+border-radius: 10px;
+}
+article {
+  border: 1px solid;
+  background-color: green;
+  text-align: center;
+  border-radius: 10px;
+}
+footer {
+  grid-column: 1/4;
+  border: 1px solid;
+  background-color: green;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/*styling my tablet*/
+@media only screen and (max-width: 640px) {
+  .header {
+    background-color: blue;
+  }
+  nav {
+    background-color: blue;
+  }
+  section{
+  background-color: blue;
+  }
+  article {
+    background-color: blue;
+  }
+  footer {
+    background-color: blue;
+  }
+
+}/*styling my mobile*/
+@media only screen and (max-width:320px) {
+  .header {
+    background-color: red;
+  }
+  nav {
+    background-color: red;
+  }
+  section{
+  background-color: red;
+  }
+  article {
+    background-color: red;
+  }
+  footer {
+    background-color: red;
+  }
+
+}
